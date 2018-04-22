@@ -25,4 +25,4 @@ bot.on("ready", async() =>{
     if (messageDelete.author.equals(bot.user)) return;
   });
 
-bot.login(BOT_TOKEN);
+bot.login(process.env.BOT_TOKEN);
